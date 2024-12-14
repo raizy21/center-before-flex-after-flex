@@ -7,6 +7,9 @@
 
 body {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main {
   display: flex;
@@ -26,12 +29,16 @@ main {
 }
 
 .design-ghost {
-  background: tomato;
-  width: 150px;
+  /* background: tomato; */
+  width: 120px;
   height: 100px;
   line-height: 100px;
   color: yellow;
   font-size: 3em;
+  
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem yellow;
+  border-radius: 50%;
 
   text-align: center;
+  z-index: 1;
 }
